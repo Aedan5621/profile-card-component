@@ -1,0 +1,134 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kumbh Sans";
+}
+
+span {
+  color: hsl(227, 10%, 46%);
+  white-space: break-spaces;
+}
+
+p {
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+}
+
+h4 {
+  color: hsl(229, 23%, 23%);
+
+  font-weight: 700;
+}
+
+.pattern-top {
+  position: absolute;
+  right: 48rem;
+  bottom: 25rem;
+}
+
+.pattern-bottom {
+  position: absolute;
+  top: 33.5rem;
+  left: 43rem;
+}
+
+.card {
+  width: 30%;
+  border: 0;
+  z-index: 1;
+  border-radius: 30px;
+}
+
+.card-body {
+  height: 95%;
+  padding: 0;
+}
+
+.card-img-top {
+  border-radius: 20px 20px 0 0;
+}
+
+.profile-picture {
+  border: solid 5px #fff;
+  border-radius: 100%;
+  position: relative;
+  bottom: 54px;
+}
+
+.name {
+  position: relative;
+  bottom: 20px;
+}
+
+.p-name {
+  position: relative;
+  bottom: 22px;
+}
+
+.items {
+  padding: 10px;
+}
+
+.card-footer {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  html {
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+
+  .pattern-top {
+    position: absolute;
+    bottom: 400px;
+    right: 150px;
+  }
+
+  .pattern-bottom {
+    position: absolute;
+    top: 350px;
+    left: 150px;
+  }
+
+  .card {
+    width: 85%;
+    border: 0;
+    z-index: 1;
+    border-radius: 30px;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1920px) {
+
+
+
+.card {
+  width: 20%;
+}
+
+  .pattern-top {
+    position: absolute;
+    bottom: 400px;
+    right: 63rem;
+  }
+
+  .pattern-bottom {
+    position: absolute;
+    top: 500px;
+    left: 62.5rem;
+  }
+
+ 
+}
